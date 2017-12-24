@@ -1,0 +1,6 @@
+src/
+test/
+*.png
+.npmignore
+.babelrc
+.travis.yml

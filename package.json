@@ -1,6 +1,6 @@
 {
   "name": "polyglot-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A higher order component that makes it easier to use Polyglot in a React application",
   "main": "build/index.js",
   "directories": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/hoducha/polyglot-react#readme",
   "peerDependencies": {
     "node-polyglot": "^2.2.2",
-    "react": "^16.2.0"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -42,7 +42,7 @@
     "jsdom": "^9.8.0",
     "mocha": "^3.1.2",
     "react-addons-test-utils": "^15.3.2",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.0.0"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
