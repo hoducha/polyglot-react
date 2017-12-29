@@ -1,6 +1,6 @@
 {
   "name": "polyglot-react",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A higher order component that makes it easier to use Polyglot in a React application",
   "main": "build/index.js",
   "directories": {
@@ -18,7 +18,10 @@
   "keywords": [
     "react",
     "polyglot",
-    "i18n"
+    "i18n",
+    "translation",
+    "localization",
+    "internationalization"
   ],
   "author": "Ha Ho <hoducha@gmail.com>",
   "license": "MIT",
