@@ -3,7 +3,9 @@
 
 # polyglot-react
 
-A higher order component that makes it easier to use Polyglot in a React application
+A higher order component that makes it easier to use Polyglot in a React application.
+
+This component pass the `polyglot` object down to every connected child components so that you can access to all features provided by Polyglot.
 
 ## Installation
 
@@ -13,7 +15,11 @@ npm i -S polyglot-react
 
 ## Usage
 
-`polyglot-react` exports a wrapper component called `Provider` and a decorator called `withPolyglot`. You are required to wrap your root component with `Provider` and pass on a `locale` string like `"en"` or `"fr"`, and `phrases` object containing the strings.
+The usage is simple:
+
+* Wrap the root component in the `Provider` component. The `Provider` has 2 required props: `locale` and `phrases` which are used to create the Polyglot instance.
+
+* Decorate the child component using `withPolyglot()`. Then you can access to the `polyglot` object from `props` of the child component.
 
 ### Wrap the root component
 
@@ -22,7 +28,7 @@ import { Provider } from 'polyglot-react';
 import App from './components/App';
 
 const locale = "en";
-const phrases = { 
+const phrases = {
   "home.login": "Login",
   "home.signup": "Sign Up"
 }
@@ -44,7 +50,7 @@ import configureStore from './configureStore';
 
 const store = configureStore();
 const locale = "en";
-const phrases = { 
+const phrases = {
   "home.login": "Login",
   "home.signup": "Sign Up"
 }
