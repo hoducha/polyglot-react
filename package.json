@@ -31,7 +31,7 @@
   "homepage": "https://github.com/hoducha/polyglot-react#readme",
   "peerDependencies": {
     "node-polyglot": "^2.2.2",
-    "react": "^15.0.0 || ^16.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -44,8 +44,8 @@
     "enzyme-adapter-react-16": "1.1.1",
     "jsdom": "9.12.0",
     "mocha": "3.5.3",
-    "react": "16.2.0",
-    "react-dom": "16.9.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "node-polyglot": "2.2.2"
   },
   "dependencies": {
